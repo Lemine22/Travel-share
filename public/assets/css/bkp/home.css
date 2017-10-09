@@ -1,0 +1,132 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background:transparent;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* .container-fluid {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 0;
+}
+.navbar-collapse>.navbar-nav>li:first-child{
+	padding-left: 150px;
+}
+#bs-example-navbar-collapse-1{
+	background: transparent;
+	padding: 1px;
+
+}
+.navbar  {
+	margin: 0;
+	background:rgba(100, 186, 209, 0.2);
+	position: fixed;
+	z-index: 10;
+	top:0;
+	left: 0;
+	width: 100%;
+
+	position: relative;
+}
+.navbar-header  {
+	padding: 0;
+
+	width: 150px;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+.navbar-brand{
+
+	padding: 0px;
+}
+.navbar-brand img {
+	max-width:100%;
+}
+.img img {
+	max-width: 30%;
+	display: inline-block;
+
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#FFE64D;
+}
+.navbar-default .navbar-nav > li{
+	background: #127096;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover  {
+	background-color: #FFE64D;
+	color: #1A4D80;
+} */
+#map {
+	margin: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+}
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background:rgba(100, 186, 209, 0.2);
+	margin-top: 25px;
+}
+footer p {
+	margin: 0 auto;
+	color: #1A4D80;
+	width: 15%;
+	text-align: center;
+	line-height: 30px;
+}
+/* #connexion{
+	padding: 1px;
+} */
+
+#content{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+}
+body #main-container #worldmap {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important; }
+    body #main-container .infobubble {
+      width: auto;
+      position: fixed;
+      top: 85%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      background-color: #127096;
+      border-radius: 4px;
+      padding: 5px;
+    }
+    body #main-container .infobubble .f32 {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 0;
+    }
+    body #main-container .infobubble .f32 li{
+      padding: 0;
+      margin: 0;
+    }
+    body #main-container .infobubble #firstHeading {
+      display: inline-block;
+      vertical-align: -13px;
+      color: #FFE64D;
+    }
+    body #main-container .infobubble p {
+      color: #FFE64D;
+    }

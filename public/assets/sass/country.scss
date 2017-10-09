@@ -1,0 +1,107 @@
+@import 'variables.scss';
+@import '_mixins.scss';
+
+$bg-color:rgba(100, 186, 209, 0.2);
+$bg-color-link:#127096;
+$color-link:#FFE64D;
+
+body {
+
+	#main-container {
+		margin: 0;
+		padding: 0;
+
+		.container-fluid {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+			position: relative;
+			padding: 0;
+			background:$bg-color;
+
+			#map {
+
+				&.country-map {
+					position: relative;
+					margin: 0;
+				    width: 75%;
+				    height: 900px;
+				    float: left;
+				}
+			}
+
+		}
+	}
+}
+
+h1{
+	text-align: center;
+	margin: 45px auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	background:rgb(100, 186, 209);
+	border-radius: 5px;
+	background-color: #127096;
+	color:#FFE64D;
+	font-weight: bolder;
+	width: 800px;
+}
+.right {
+	float: left;
+	height: 100%;
+	width: 25%;
+
+	.row {
+		text-align: center;
+		margin-top:20px
+	}
+
+		h2 {
+			text-align: center;
+			margin: 0;
+			padding: 20px;
+		}
+
+		a {
+			background-color:$bg-color-link;
+			color: $color-link;
+			padding: 7px;
+			line-height: 20px;
+			display: inline-block;
+			margin-top: 20px;
+
+			@include border-radius(5px);
+
+			&:hover {
+				background-color: $color-link;
+				color:$bg-color-link;
+
+			}
+			&:focus {
+				background-color: $color-link;
+				color:$bg-color-link;
+
+			}
+
+		}
+
+		hr {
+			display: block;
+			margin: 0;
+			border : 5px solid rgba(250, 229, 119, 0.3) ;
+		}
+
+	}
+
+figure{
+	text-align: center;
+	position:relative;
+	top: 0;
+	right: 5px;
+	display: inline-block;
+	margin-left: 15px;
+	float:right;
+	margin: 7px;
+	width: 100%;
+}

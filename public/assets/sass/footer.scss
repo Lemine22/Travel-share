@@ -1,0 +1,19 @@
+$color-link:#1A4D80;
+$bg-color:rgba(100, 186, 209, 0.2);
+
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background:$bg-color;
+
+	p{
+		margin: 0 auto;
+		color: $color-link;
+		width: 15%;
+		text-align: center;
+		line-height: 50px;
+
+	}
+
+}

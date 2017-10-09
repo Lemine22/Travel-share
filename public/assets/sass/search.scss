@@ -1,0 +1,34 @@
+@import 'variables.scss';
+@import '_mixins.scss';
+body {
+	.formulaire {
+		width: 100%;
+		margin: 120px auto 50px;
+		text-align: center;
+		h3 {
+			font-weight: bolder;
+			color: #127096;
+		}
+		.search-result {
+			color: #127096;
+			button {
+				background-color: #127096;
+				color: #ffe64d;
+				border-style: none;
+				&:hover {
+					background-color: #ffe64d;
+					color: #127096;
+				}
+			}
+		}
+	}
+
+	.form-group1 {
+		margin-top: 20px;
+	}
+	.search-result {
+	   width: 100%;
+	   border: solid 2px white;
+	}
+	@import 'footer.scss';
+}

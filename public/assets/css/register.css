@@ -1,0 +1,96 @@
+body {
+  background: url(../images/logo-travel-share.png) no-repeat center 190px; }
+  body .containe-register {
+    margin-top: 80px;
+    opacity: 0.8; }
+    body .containe-register .panel-login {
+      background: #E0F1F6;
+      border-color: #ccc;
+      -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+      -o-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2); }
+      body .containe-register .panel-login .panel-heading {
+        color: #00415d;
+        background-color: #fff;
+        border-color: #fff;
+        text-align: center; }
+        body .containe-register .panel-login .panel-heading .authent-form-link {
+          text-decoration: none;
+          color: #666;
+          font-weight: bold;
+          font-size: 15px;
+          -webkit-transition: all 0.1s linear;
+          -moz-transition: all 0.1s linear;
+          transition: all 0.1s linear; }
+        body .containe-register .panel-login .panel-heading .active {
+          color: #1967BE;
+          font-size: 18px; }
+        body .containe-register .panel-login .panel-heading hr {
+          margin-top: 10px;
+          margin-bottom: 0px;
+          clear: both;
+          border: 0;
+          height: 1px;
+          background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+          background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+          background-image: linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+          background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent);
+          background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.15), transparent); }
+    body .containe-register .panel-body .row .col-lg-12 input[type="password"], body .containe-register .panel-body .row .col-lg-12 input[type="pseudo"], body .containe-register .panel-body .row .col-lg-12 input[type="login"] {
+      height: 45px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+      background: rgba(250, 229, 119, 0.5);
+      -webkit-transition: all 0.1s linear;
+      -moz-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+    body .containe-register .panel-body .row .col-lg-12 input:hover, body .containe-register .panel-body .row .col-lg-12 input:focus {
+      outline: none;
+      border-color: #ccc;
+      -moz-box-shadow: none 0px 5px 0px #656565;
+      -webkit-box-shadow: none 0px 5px 0px #656565;
+      -o-box-shadow: none 0px 5px 0px #656565;
+      box-shadow: none 0px 5px 0px #656565; }
+    body .containe-register .panel-body .row .col-lg-12 .btn-login {
+      background-color: #59B2E0;
+      outline: none;
+      color: #fff;
+      font-size: 14px;
+      height: auto;
+      font-weight: normal;
+      padding: 14px 0;
+      text-transform: uppercase;
+      border-color: #59B2E6; }
+      body .containe-register .panel-body .row .col-lg-12 .btn-login:hover, body .containe-register .panel-body .row .col-lg-12 .btn-login:focus {
+        color: #fff;
+        background-color: #53A3CD;
+        border-color: #53A3CD; }
+    body .containe-register .panel-body .row .col-lg-12 .forgot-password {
+      text-decoration: underline;
+      color: #888; }
+      body .containe-register .panel-body .row .col-lg-12 .forgot-password:hover, body .containe-register .panel-body .row .col-lg-12 .forgot-password:focus {
+        text-decoration: underline;
+        color: #666; }
+    body .containe-register .panel-body .row .col-lg-12 .btn-register {
+      background-color: #1CB94E;
+      outline: none;
+      color: #fff;
+      font-size: 14px;
+      height: auto;
+      font-weight: normal;
+      padding: 14px 0;
+      text-transform: uppercase;
+      border-color: #1CB94A; }
+      body .containe-register .panel-body .row .col-lg-12 .btn-register:hover, body .containe-register .panel-body .row .col-lg-12 .btn-register:focus {
+        color: #fff;
+        background-color: #1CA347;
+        border-color: #1CA347; }
+  body .modal .radio, body .modal .menue {
+    display: inline; }
+  body .modal img {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 16%;
+    padding: 20px; }
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,56 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	margin: 0;
+    width: 50%;
+    height: 900px;
+    float: left;
+}
+
+
+#connexion{
+	padding: 1px;
+}
+
+h2{
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+}
+h1{
+	text-align: center;
+	margin-top: 55px;
+	padding: 15px;
+	margin-bottom: 0;
+	background:rgb(100, 186, 209);
+}
+.right{
+	background:rgba(100, 186, 209, 0.2);
+	height: 100%;
+	width: auto;
+}
+
+.inner-right{
+	background:rgba(100, 186, 209, 0.2);
+}
+
+hr{
+	display: block;
+	margin: 0;
+	border : 5px solid rgba(250, 229, 119, 0.3) ;
+}
+p{
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+
+	bottom: 0;
+	background:rgba(100, 186, 209, 0.2);
+
+}

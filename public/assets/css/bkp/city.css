@@ -1,0 +1,298 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body{
+	font-style: 'Roboto Mono',sans-serif;
+	overflow: hidden;
+}
+
+#main-container {
+	height: 100%;
+	margin-top: 55px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.navbar {
+	margin: 0;
+	background: #1A4D80;
+
+
+}
+.navbar-header .navbar-brand {
+	padding: 0;
+	padding-left: 15px;
+}
+.navbar-header .navbar-brand img {
+	max-width: 100%;
+	display: inline-block;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #FFE64D;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover  {
+	background-color: #FFE64D;
+	color: #1A4D80;
+
+}
+
+
+h1.city {
+	font: 50px 'Roboto Mono',sans-serif;
+	text-align: center;
+	margin: 75px auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	background:rgb(100, 186, 209);
+	border-radius: 5px;
+	background-color: #127096;
+	color:#FFE64D;
+	font-weight: bolder;
+	width: 800px;
+}
+#event>h2{
+	text-align:center;
+	margin: 35px auto 30px;
+	color:#127096;
+
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding: 0;
+
+}
+
+.container>#map {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#event{
+	font: 16px 'Roboto Mono',sans-serif;
+	width: 800px;
+	height: 100%;
+	position:absolute;
+	z-index:3;
+	right: 0;
+	top: 0;
+	border: solid 1px transparent;
+	background:rgba(255,230,77,0.5);
+	overflow-y: scroll;
+}
+
+/* #side-bar .tootlip {
+position: relative;
+z-index:4;
+} */
+#form-filter-qui{
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	font-size: 13px;
+	color:#127096;
+}
+.fa{
+	color:#127096;
+}
+.plan {
+
+	width: 580px;
+
+	margin-top: 30px;
+	margin-right: 100px;
+	float: right;
+	border: solid 1px #42a5f5;
+	/* text-align: center; */
+	/* float: right; */
+	/* margin-right: 10px; */
+	display: inline-block;
+
+	background:rgba(255,230,77,0.6);
+	border-radius: 5px;
+
+	position: relative;
+
+}
+.plan .avatar > img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+	/* left: 50px */;
+}
+.plan .avatar{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	left: 20px;
+
+}
+.plan .avatar>p{
+	position: relative;
+	/* left:50px; */
+	font-size: 13px;
+	color: #286090;
+	font-weight: bolder;
+}
+
+.plan figure{
+
+	text-align: center;
+	position:relative;
+	top: 0;
+	right: 5px;
+	display: inline-block;
+	margin-left: 15px;
+	float:right;
+	margin: 7px;
+	width: 70%;
+}
+.plan figure > p{
+
+	line-height: 25px;
+	font-size: 12px;
+
+}
+.plan button{
+	padding: 0;
+	/* display: inline-block; */
+	/* margin-right: 20px; */
+	width: 70px;
+	line-height: 30px;
+	background:#127096;
+	color: #FFE64D;
+	border-radius: 10%;
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.plan figure > h3{
+	margin-top: 0;
+	font-weight: bolder;
+
+}
+
+#side-bar{
+	line-height: 20px;
+	width: 80px;
+	display: inline-block;
+	position: fixed;
+
+	padding-left: 10px;
+}
+#checkbox{
+
+
+	margin: 7px;
+
+}
+.menue>.fa{
+	margin:10px;
+	font-size: 10;
+	display: block;
+	width: 16px;
+
+
+}
+#myModal>img{
+	width: 70px;
+	height: 50px;
+	margin: 5px;
+	display: inline-block;
+}
+nav{
+	margin: 0 auto;
+	text-align: center;
+}
+nav>.pagination>li>a{
+	background:rgba(255,230,77,0.6);
+	/* border: solid 1px  #42A5F5; */
+}
+nav>.pagination>li>.caractere{
+	background:rgba(255,230,77,0.6);
+}
+nav>.pagination>.active>a{
+	background:rgb(18,112,150);
+}
+nav>.pagination>li>a:hover{
+
+	color:rgb(255,230,77);
+	background: rgb(18,112,150)
+
+}
+nav>.pagination>li>.caractere:hover{
+	color:rgb(255,230,77);
+	background: rgb(18,112,150);
+}
+
+label{
+	line-height: 30px;
+	overflow: hidden;
+}
+#color + .tooltip.left > .tooltip-inner {
+	background-color: #127096;
+	color: #FFE64D;
+	font-weight: bolder;
+}
+#color + .tooltip.left > .tooltip-arrow {
+	border-color:transparent;
+}
+.carousel .item img{
+	width: 100%;
+	border-radius: 10px;
+}
+.carousel .item{
+	border-radius: 10px;
+}
+.modal-body figure h3{
+	text-align: center;
+	font-weight: bolder;
+}
+.modal-body figure a{
+	color: #127096;
+	font-weight: bolder;
+}
+.modal-body{
+	font: 16px 'Roboto Mono',sans-serif;
+	color:#127096;
+	background:#F3E377;
+	border-radius: 10px;
+
+
+}
+
+
+#carousel-example-generic{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+
+footer {
+	width: 100%;
+	background: #1A4D80;
+	z-index: 4;
+}
+footer p {
+	margin: 0 auto;
+	color: #FFE64D;
+	width: 15%;
+	text-align: center;
+	line-height: 50px;
+
+}

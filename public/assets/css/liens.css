@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  margin: 75px auto;
+  padding: 15px;
+  margin-bottom: 0;
+  background: #64bad1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #127096;
+  color: #FFE64D;
+  font-weight: bolder;
+  width: 800px; }
+
+.row {
+  width: 70%;
+  margin: 0 auto; }
+  .row li {
+    margin: 50px auto;
+    text-align: center; }
+
+.navbar-nav {
+  padding-left: 390px;
+  text-align: center; }
+
+fieldset {
+  margin-bottom: 50px; }
+
+.mbp, .ndl, .ville, .pays {
+  width: 49.5029821074%; }
+
+#title, #name_bp, #city, #country {
+  width: 100%; }
+
+.row {
+  margin-top: 50px; }
+
+.liens {
+  list-style: none; }
+  .liens li {
+    margin: 30px 0 30px 0; }
+    .liens li a {
+      text-decoration: none;
+      color: #FFE64D;
+      background-color: #127096;
+      border-radius: 4px;
+      padding: 10px;
+      font-size: 18px; }
+      .liens li a:hover {
+        color: #127096;
+        background-color: #FFE64D;
+        border-radius: 4px;
+        padding: 10px; }
+
+#view li {
+  text-decoration: none;
+  color: #127096;
+  font-size: 18px;
+  width: 400px;
+  text-align: left; }
+  #view li:hover {
+    color: #FFE64D;
+    border-radius: 4px; }
+
+/*# sourceMappingURL=liens.css.map */
